@@ -103,3 +103,83 @@ public class io_practqs {
         
     }
 }
+
+// Q6) Take two different string input and print them in same line.
+
+import java.util.Scanner;
+
+public class io_practqs {
+    public static void main(String[] args) {
+
+        System.out.println("Enter string 1:");
+        Scanner a = new Scanner(System.in);
+        String a1 = a.next();
+
+        System.out.println("Enter string 1:");
+        Scanner b = new Scanner(System.in);
+        String b1 = b.next();
+
+        System.out.println(a1+b1);
+    }
+}
+
+// Q7) *IMP QUES* Take 3 inputs from user and check :all are equal AND any of two are equal
+
+public class io_practqs {
+    public static void main(String[] args) {
+
+        System.out.println("Enter 1st input :");
+        Scanner a = new Scanner(System.in);
+        int a1 = a.nextInt();
+
+        System.out.println("Enter 2nd input :");
+        Scanner b = new Scanner(System.in);
+        int b2 = b.nextInt();
+
+        System.out.println("Enter 3rd input :");
+        Scanner c = new Scanner(System.in);
+        int c3 = c.nextInt();
+
+        System.out.println(a1==b2&&b2==c3&&c3==a1);
+        System.out.println(a1==b2||b2==c3||c3==a1);
+        
+    }
+}
+
+// Q8) Write a program to enter the values of two variables 'a' and 'b' from keyboard and then check if both the conditions 'a < 50' and 'a < b' are true.
+
+import java.util.Scanner;
+
+public class io_practqs {
+    public static void main(String[] args) {
+
+        System.out.println("Enter variable a :");
+        Scanner a = new Scanner(System.in);
+        int a1 = a.nextInt();
+        System.out.println("Enter variable b :");
+        int b1 = a.nextInt();
+
+        System.out.println("A less than 50 - "+(a1<50)+", A less than B - "+(a1<b1));
+
+    }
+}
+
+// Q9) If the marks of Robert in three subjects are entered through keyboard (each out of 100 ), write a program to calculate his total marks and percentage marks.
+
+import java.util.Scanner;
+
+public class io_practqs {
+    public static void main(String[] args) {
+
+        Scanner subs = new Scanner(System.in);
+        System.out.println("Enter marks in subject 1: ");
+        float a = subs.nextFloat();
+        System.out.println("Enter marks in subject 2: ");
+        float b = subs.nextFloat();
+        System.out.println("Enter marks in subject 3: ");
+        float c = subs.nextFloat();
+
+        System.out.println("Total marks - "+(a+b+c)+" & Percentage is "+((((a+b+c)/300)*100))+"%");
+        
+    }
+}
