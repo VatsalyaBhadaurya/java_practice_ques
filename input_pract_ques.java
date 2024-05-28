@@ -71,3 +71,35 @@ public class io_practqs {
 
     }
 }
+
+// Q4) Take side of a square from user and print area and perimeter of it.
+
+import java.util.Scanner;
+
+public class io_practqs {
+    public static void main(String[] args) {
+
+        System.out.println("Enter Side of square");
+        Scanner s = new Scanner(System.in);
+        float sd = s.nextFloat();
+        System.out.println(sd+"cm");
+
+        System.out.println(sd*sd+"cm2 Area " + 4*sd + "cm Perimeter");
+        
+    }
+}
+
+// Q5) Write a program to find square of a number.
+
+import java.util.Scanner;
+
+public class io_practqs {
+    public static void main(String[] args) {
+
+        System.out.println("Enter number for it's square : ");
+        Scanner s = new Scanner(System.in);
+        float sq = s.nextFloat();
+        System.out.println("Square is "+ sq*sq);
+        
+    }
+}
