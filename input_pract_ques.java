@@ -21,3 +21,26 @@ public class io_practqs {
 
     }
 }
+
+// Q2)Ask user to give two double input for length and breadth of a rectangle and print area type casted to int.
+
+import java.util.Scanner;
+
+public class io_practqs {
+    public static void main(String[] args) {
+
+        System.out.println("Length of rectangle ");
+        Scanner l = new Scanner(System.in);
+        float len = l.nextFloat();
+        System.out.println(len);
+
+        System.out.println("Breath of rectangle ");
+        Scanner b = new Scanner(System.in);
+        float bre = b.nextFloat();
+        System.out.println(bre);
+
+        double ar = len*bre;
+        System.out.println("Area is "+ar);
+        
+    }
+}
