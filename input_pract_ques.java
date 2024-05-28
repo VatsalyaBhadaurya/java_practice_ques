@@ -22,7 +22,7 @@ public class io_practqs {
     }
 }
 
-// Q2)Ask user to give two double input for length and breadth of a rectangle and print area type casted to int.
+// Q2) Ask user to give two double input for length and breadth of a rectangle and print area type casted to int.
 
 import java.util.Scanner;
 
@@ -42,5 +42,32 @@ public class io_practqs {
         double ar = len*bre;
         System.out.println("Area is "+ar);
         
+    }
+}
+
+// Q3) Take name, roll number and field of interest from user and print in the format below : Hey, my name is xyz and my roll number is xyz. My field of interest are xyz.
+
+import java.util.Scanner;
+
+public class io_practqs {
+    public static void main(String[] args) {
+
+        System.out.println("Enter you name : ");
+        Scanner n = new Scanner(System.in);
+        String nm = n.nextLine();
+        System.out.println(nm);
+
+        System.out.println("Enter roll no : ");
+        Scanner rn = new Scanner(System.in);
+        int r = rn.nextInt();
+        System.out.println(r);
+
+        System.out.println("Enter your interests : ");
+        Scanner i = new Scanner(System.in);
+        String in = i.nextLine();
+        System.out.println(in);
+
+        System.out.println("Hey, my name is "+nm+" and my roll number is "+r+". My field of interest are "+in+".");
+
     }
 }
