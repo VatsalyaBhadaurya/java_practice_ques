@@ -50,4 +50,26 @@ public class stringsHarry {
    Hello 
     i'm 	 'vatsalya' bhadaurya ! */
 
-// Q1) 
+// Q1) Write a java program to convert a string to lower case 
+
+public class stringsHarry {
+    public static void main(String[] args) {
+
+        String a = "Hello I'm Don";
+        System.out.println(a.toLowerCase());
+        
+    }
+}
+
+// Q2) Write a java program to replace spaces with underscores.
+
+public class stringsHarry {
+    public static void main(String[] args) {
+
+        String j = "    java    ";
+        System.out.println(j.replace(" ","_"));
+
+    }
+}
+
+// Q3) 
