@@ -72,4 +72,39 @@ public class stringsHarry {
     }
 }
 
-// Q3) 
+// Q3) Write a java rpgram to replace name 
+
+public class stringsHarry {
+    public static void main(String[] args) {
+
+        String letter = "Dear <|name|>, Thanks a lot !";
+        System.out.println(letter.replace("<|name|>","Lara"));
+
+    }
+}
+
+// Q4) **IMP QUES** Write a java program to detect double and tripple spaces .
+
+public class stringsHarry {
+    public static void main(String[] args) {
+
+        String space = "  Vatsalya";
+        int len = space.length();
+        String len_t = space.trim();
+        int spt = len_t.length();
+
+        System.out.println(((len-spt)==2)+" Has 2 spaces");
+        System.out.println(((len-spt)==3)+" Has 3 spaces");
+
+    }
+}
+
+// Q5) Format followinf letter using escape sequence : letter = "Dear Rohan, Thanks for your kind words. VatsalyaB"
+
+public class stringsHarry {
+    public static void main(String[] args) {
+
+        System.out.println("Dear Rohan,\n Thanks for your kind words.\n VatsalyaB");
+        
+    }
+}
