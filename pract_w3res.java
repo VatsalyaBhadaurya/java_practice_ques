@@ -24,6 +24,7 @@ public class prac_ques_w3 {
     }
 }
 
+
 // Q4) Write a Java program to print the results of the following operations.Test Data:a. -5 + 8 * 6 b. (55+9) % 9 c. 20 + -3*5 / 8 d. 5 + 15 / 3 * 2 - 8 % 3 
 
 public class prac_ques_w3 {
@@ -224,3 +225,65 @@ public class prac_ques_w3 {
 
     }
 }
+
+// Q34) **IMP** Write a Java program to compute hexagon area. Area of a hexagon = (6 * s^2)/(4*tan(π/6))
+
+public class prac_ques_w3 {
+    public static void main(String[] args) {
+
+        System.out.println("Enter length of side of hexagon : ");
+        Scanner s = new Scanner(System.in);
+        Float sd = s.nextFloat();
+
+        System.out.println("Area of hexagon "+(6 * (sd * sd)) / (4 * 0.57735026919));
+
+    }
+}
+
+// Q35) Write a Java program to compute the area of a polygon.
+
+public class prac_ques_w3 {
+    public static void main(String[] args) {
+
+        System.out.println("Enter sides of polygon :");
+        Scanner n = new Scanner(System.in);
+        int sd = n.nextInt();
+
+        System.out.println("Enter length of side of polygon :");
+        Scanner l = new Scanner(System.in);
+        int lt = l.nextInt();
+
+        System.out.println((sd*lt*lt)/(4 * Math.tan(Math.PI/sd)));
+
+    }
+}
+
+// Q42) Write a Java program to input and display your password.
+
+public class prac_ques_w3 {
+    public static void main(String[] args) {
+
+        System.out.println("Enter you password : ");
+        Scanner p = new Scanner(System.in);
+        String pwd = p.next();
+
+        System.out.println("Your password was :"+pwd);
+
+    }
+}
+
+// Q44) Write a Java program that accepts an integer (n) and computes the value of n+nn+nnn.
+
+public class prac_ques_w3 {
+    public static void main(String[] args) {
+
+        System.out.println("Enter integer :");
+        Scanner i = new Scanner(System.in);
+        Float in = i.nextFloat();
+
+        System.out.println(1*in + 11*in + 111*in);
+
+    }
+}
+
+//
