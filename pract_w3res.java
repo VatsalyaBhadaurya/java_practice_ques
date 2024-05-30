@@ -156,3 +156,53 @@ public class prac_ques_w3 {
 
     }
 }
+
+// Q13) Write a Java program to print the area and perimeter of a rectangle.
+
+import java.util.Scanner;
+
+public class prac_ques_w3 {
+    public static void main(String[] args) {
+
+        System.out.println("Enter length :");
+        Scanner l = new Scanner(System.in);
+        float len = l.nextFloat();
+
+        System.out.println("Enter breath :");
+        Scanner b = new Scanner(System.in);
+        float bre = b.nextFloat();
+
+        System.out.println("Area is - "+(len*bre));
+        System.out.println("Perimeter is - "+(2*(len+bre)));
+        
+    }
+}
+
+// Q14) 
+
+// Q15) Write a Java program to swap two variables.
+
+public class prac_ques_w3 {
+    public static void main(String[] args) {
+        String abc = "Hello";
+        System.out.println(abc.replace("l","y"));
+    }
+}
+
+// Q16) Write a Java program to print a face.
+
+public class prac_ques_w3 {
+    public static void main(String[] args) {
+
+        System.out.println(" +\"\"\"\"\"+ ");
+        System.out.println("[| o o |]");
+        System.out.println(" |  ^  | ");
+        System.out.println(" | '-' | ");
+        System.out.println(" +-----+");
+        
+    }
+}
+
+// Q17) 
+
+// Q18) 
