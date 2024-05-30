@@ -205,4 +205,22 @@ public class prac_ques_w3 {
 
 // Q17) 
 
-// Q18) 
+// Q32) Write a Java program to compare two numbers.
+
+public class prac_ques_w3 {
+    public static void main(String[] args) {
+
+        System.out.println("Enter number 1 :");
+        Scanner o = new Scanner(System.in);
+        Float one = o.nextFloat();
+
+        System.out.println("Enter number 2 :");
+        Scanner t = new Scanner(System.in);
+        Float two = t.nextFloat();
+
+        System.out.println(one != two);
+        System.out.println(one < two);
+        System.out.println(one <= two);
+
+    }
+}
