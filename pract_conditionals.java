@@ -43,4 +43,34 @@ public class conditionals {
 
     }
 
+// Q2) Calculate IT paid by employee acc to tax slabs, take income as input 
+
+import java.util.Scanner;
+
+public class conditionals {
+    public static void main(String[] args) {
+
+        System.out.println("Enter income :");
+        Scanner I = new Scanner(System.in);
+        Float in = I.nextFloat();
+
+        if (in<2.5){
+            System.out.println("You are not taxable!");
+        }
+
+        if (in>=2.5 && in<=5){
+            System.out.println("Tax to be paid is "+(in*(0.05)));
+        }
+
+        if (in>=5 && in<=10){
+            System.out.println("Tax to be paid is "+(in*0.2));
+        }
+
+        if (in>10){
+            System.out.println("Tax to be paid is "+(in*0.3));
+        }
+
+    }
+}
+
 
