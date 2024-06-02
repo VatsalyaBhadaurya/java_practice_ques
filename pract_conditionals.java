@@ -73,4 +73,50 @@ public class conditionals {
     }
 }
 
+// Q3) To find wheter the age entered is leap year or not
 
+import java.util.Scanner;
+
+public class conditionals {
+    public static void main(String[] args) {
+
+        System.out.println("Enter the year : ");
+        Scanner y = new Scanner(System.in);
+        int yr = y.nextInt();
+
+        if (yr%4==0){
+            System.out.println("It's a leap year!");
+        }
+
+        else {
+            System.out.println("It's not a leap year");
+        }
+
+    }
+}
+
+// Q4) Write a program to find out the type of website from url
+
+import java.util.Scanner;
+
+public class conditionals {
+    public static void main(String[] args) {
+
+        System.out.println("Enter the url : ");
+        Scanner u = new Scanner(System.in);
+        String ur = u.nextLine();
+
+        if (ur.endsWith(".com")){
+            System.out.println("It's a commercial website");
+        }
+
+        if (ur.endsWith(".org")){
+            System.out.println("It's an organisation website");
+        }
+
+        if (ur.endsWith(".in")){
+            System.out.println("It's an indian website");
+        }
+
+    }
+}
