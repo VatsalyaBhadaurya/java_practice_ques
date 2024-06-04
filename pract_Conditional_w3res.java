@@ -134,3 +134,71 @@ public class conditionals {
 
     }
 }
+
+// Q7) Write a Java program to find the number of days in a month.
+
+import java.util.Scanner;
+
+public class conditionals {
+    public static void main(String[] args) {
+
+        System.out.println("Enter month number :");
+        Scanner m = new Scanner(System.in);
+        int mn = m.nextInt();
+        System.out.println("Enter year");
+        int yr = m.nextInt();
+
+        if (yr%4==0 && mn == 2){
+            System.out.println("February "+yr+" has 29 days");
+        }
+
+        if (yr%4!=0 && mn == 2){
+            System.out.println("February "+yr+" has 28 days");
+        }
+
+        if (mn == 1){
+            System.out.println("January "+yr+" has 31 days");
+        }
+
+        if (mn == 3){
+            System.out.println("March "+yr+" has 31 days");
+        }
+
+        if (mn == 4){
+            System.out.println("April "+yr+" has 30 days");
+        }
+
+        if (mn == 5){
+            System.out.println("May "+yr+" has 31 days");
+        }
+
+        if (mn == 6){
+            System.out.println("June "+yr+" has 30 days");
+        }
+
+        if (mn == 7){
+            System.out.println("July "+yr+" has 31 days");
+        }
+
+        if (mn == 8){
+            System.out.println("August "+yr+" has 31 days");
+        }
+
+        if (mn == 9){
+            System.out.println("September "+yr+" has 30 days");
+        }
+
+        if (mn == 10){
+            System.out.println("October "+yr+" has 31 days");
+        }
+
+        if (mn == 11){
+            System.out.println("November "+yr+" has 30 days");
+        }
+
+        if (mn == 12){
+            System.out.println("December "+yr+" has 31 days");
+        }
+
+    }
+}
