@@ -62,3 +62,29 @@ public class conditionals {
         
     }
 }
+
+// Q4) Write a Java program that reads a floating-point number and prints "zero" if the number is zero. Otherwise, print "positive" or "negative"
+
+import java.util.Scanner;
+
+public class conditionals {
+    public static void main(String[] args) {
+
+        System.out.println("Enter a number :");
+        Scanner f = new Scanner(System.in);
+        float fs = f.nextFloat();
+
+        if (fs == 0){
+            System.out.println("Zero");
+        }
+
+        if (fs < 0){
+            System.out.println("Negative");
+        }
+
+        if (fs > 0){
+            System.out.println("Positive");
+        }
+        
+    }
+}
