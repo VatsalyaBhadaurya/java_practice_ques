@@ -88,3 +88,49 @@ public class conditionals {
         
     }
 }
+
+// Q5) Write a Java program that takes a number from the user and generates an integer between 1 and 7. It displays the weekday name.
+
+import java.util.Scanner;
+
+public class conditionals {
+    public static void main(String[] args) {
+
+        System.out.println("Enter a number from 1-7 : ");
+        Scanner n = new Scanner(System.in);
+        int nd = n.nextInt();
+
+        if (nd<1 || nd>7){
+            System.out.println("Number not in range");
+        }
+
+        if (nd == 1 ){
+            System.out.println("Monday");
+        }
+
+        if (nd == 2){
+            System.out.println("Tuesday");
+        }
+
+        if (nd == 3){
+            System.out.println("Wednesday");
+        }
+
+        if (nd == 4){
+            System.out.println("Thrusday");
+        }
+
+        if (nd == 5){
+            System.out.println("Friday");
+        }
+
+        if (nd == 6){
+            System.out.println("Saturday");
+        }
+
+        if (nd == 7){
+            System.out.println("Sunday");
+        }
+
+    }
+}
